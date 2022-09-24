@@ -1,0 +1,47 @@
+@media screen and (max-width: 770px){
+    body{
+        width: 100%;
+    }
+    .navbar{
+        display: block;
+    }
+    .Line1{
+        gap: 15px;
+    }
+    .Line1 img{
+        width: 14pc;
+        height: 55vh;
+    }
+    .linTex h1{
+        line-height: 30px;
+        font-size: 30px;
+    }
+    .linTex p{
+        font-size: 15px;
+        line-height: 30px;
+    }
+    .navbar{
+        display: flex;
+        align-items: right;
+    }
+    button{
+        width: 9pc;
+    }
+    .feature h1{
+        text-align: center;
+    }
+    .co{
+        display: grid;
+    }
+    .CON{
+        width: 80%;
+        justify-content: center;
+        height: 90%;
+    }
+    .CON img{
+        padding-left: -90px;
+    }
+    .CON h5{
+        padding-top: 4px;
+    }
+}
